@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"lib": ["ES2019"],
+		"target": "ES2019",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"noImplicitAny": false,
+		"noImplicitThis": false,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"sourceMap": true,
+		"watch": false,
+		"inlineSources": true,
+		"sourceRoot": "/"
+	},
+	"compileOnSave": true,
+	"include": ["./src/**/*", "./tests/**/*"]
+}
